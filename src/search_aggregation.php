@@ -26,19 +26,22 @@ if ($result['stocks']['mappings']['properties']['name']['type'] !== 'keyword') {
 }
 
 $params = [
-    'index' => 'stocks',
-    'body'  => [
+    'index' => 'stock-demo-v1',
+    "size" => 0,
+    'body' => [
         "aggs" => [
-            "my-agg-name" => [
+            "symbol-agg" => [
                 "terms" => [
                     "field" => "name",
+                    "size" => 1000,
+                    "order" => [
+                        "_key" => "asc"
+                    ]
                 ]
             ]
         ]
     ]
 ];
-
 $result = $client->search($params);
-var_dump($result);
 
-//print_r($result['aggregations']);
+print_r($result['aggregations']);
