@@ -1,10 +1,8 @@
-## Elasticsearch PHP examples
+## Elasticsearch 7 with PHP examples
 
-This project is a collection of examples on how to program [Elasticsearch](https://github.com/elastic/elasticsearch)
-in PHP.
+This project is a collection of examples on how to program [Elasticsearch 7](https://github.com/elastic/elasticsearch) in PHP.
 
-All the examples use [elastic/elasticsearch-php](https://github.com/elastic/elasticsearch-php),
-the official PHP client from [Elastic](https://www.elastic.co/).
+All the examples use [elastic/elasticsearch-php 7.17](https://github.com/elastic/elasticsearch-php) the official PHP client from [Elastic](https://www.elastic.co/). The `7.17` is the last minor version of elasticsearch-php `7.x`.
 
 ## Install the examples
 
@@ -27,7 +25,7 @@ instance of Elasticsearch running at `localhost:9200`, using the following comma
 composer run-script es-run
 ```
 
-This command will execute Elasticsearch 7.15.1 on `localhost:9200` using [Docker](https://www.docker.com/).
+This command will execute Elasticsearch 7.17 on `localhost:9200` using [Docker](https://www.docker.com/).
 If you want to stop the Elasticsearch instance you can use the following command:
 
 ```bash
