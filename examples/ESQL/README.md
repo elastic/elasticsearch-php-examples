@@ -36,25 +36,25 @@ This will create a `books` index in Elasticsearch with the following mapping:
 
 ```json
 {
-    'mappings' : {
-        'properties': {
-            'title': {
-                'type': 'text'
+    "mappings" : {
+        "properties": {
+            "title": {
+                "type": "text"
             },
-            'description': {
-                'type': 'text'
+            "description": {
+                "type": "text"
             },
-            'author': {
-                'type': 'text'
+            "author": {
+                "type": "text"
             },
-            'year': {
-                'type': 'short'
+            "year": {
+                "type": "short"
             },
-            'publisher': {
-                'type': 'keyword'
+            "publisher": {
+                "type": "keyword"
             },
-            'rating': {
-                'type': 'half_float'
+            "rating": {
+                "type": "half_float"
             }
         }
     }
