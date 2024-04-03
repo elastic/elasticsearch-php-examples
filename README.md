@@ -6,11 +6,11 @@ All the examples use [elasticsearch-php](https://github.com/elastic/elasticsearc
 
 ## ES|QL 
 
-An example about the usage of [ES|QL](https://www.elastic.co/guide/en/elasticsearch/reference/current/esql.html) in PHP, available in the [ESQL](ESQL) folder.
+An example about the usage of [ES|QL](https://www.elastic.co/guide/en/elasticsearch/reference/current/esql.html) in PHP, available in the [ESQL](examples/ESQL) folder.
 
 ## Elasticsearch 7 examples
 
-In the [elasticsearch-7](elasticsearch-7) folder you can find some examples related to the
+In the [elasticsearch-7](examples/elasticsearch-7) folder you can find some examples related to the
 [version 7](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/elasticsearch-intro.html) of Elasticsearch.
 
 ## License

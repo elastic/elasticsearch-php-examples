@@ -85,7 +85,7 @@ Stephen King, The Dead Zone, 2016, Rating: 4.40
 ```
 
 By default, the `query.php` script build an array of [stdClass](https://www.php.net/manual/en/class.stdclass.php) objects.
-If you comment line [35] and uncomment line [36](), you can create an array of [Book](Book.php) objects.
+If you comment line [35](https://github.com/elastic/elasticsearch-php-examples/blob/main/examples/ESQL/query.php#L35) and uncomment line [36](https://github.com/elastic/elasticsearch-php-examples/blob/main/examples/ESQL/query.php#L36), you can create an array of [Book](Book.php) objects.
 
 ## License
 
