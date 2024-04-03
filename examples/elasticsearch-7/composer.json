@@ -1,0 +1,12 @@
+{
+    "require": {
+        "ext-zip": "*",
+        "elasticsearch/elasticsearch": "^7.17",
+        "monolog/monolog": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
