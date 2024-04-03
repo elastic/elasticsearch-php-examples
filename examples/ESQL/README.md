@@ -35,25 +35,27 @@ php bulk.php
 This will create a `books` index in Elasticsearch with the following mapping:
 
 ```json
-'mappings' : {
-    'properties': {
-        'title': {
-            'type': 'text'
-        },
-        'description': {
-            'type': 'text'
-        },
-        'author': {
-            'type': 'text'
-        },
-        'year': {
-            'type': 'short'
-        },
-        'publisher': {
-            'type': 'keyword'
-        },
-        'rating': {
-            'type': 'half_float'
+{
+    'mappings' : {
+        'properties': {
+            'title': {
+                'type': 'text'
+            },
+            'description': {
+                'type': 'text'
+            },
+            'author': {
+                'type': 'text'
+            },
+            'year': {
+                'type': 'short'
+            },
+            'publisher': {
+                'type': 'keyword'
+            },
+            'rating': {
+                'type': 'half_float'
+            }
         }
     }
 }
